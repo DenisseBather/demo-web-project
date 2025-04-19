@@ -10,6 +10,7 @@
   <packaging>war</packaging>
 
   <build>
+    <finalName>demo-web-project</finalName> <!-- Nombre del WAR resultante -->
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
