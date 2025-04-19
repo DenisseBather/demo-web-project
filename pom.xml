@@ -7,10 +7,16 @@
   <groupId>com.denisse</groupId>
   <artifactId>demo-web-project</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <packaging>war</packaging> <!-- 🔧 Cambiado a WAR -->
 
   <build>
     <plugins>
-      <!-- Puedes agregar plugins aquí si lo necesitas -->
+      <!-- Plugin para construir archivos WAR -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.3.2</version>
+      </plugin>
     </plugins>
   </build>
 </project>
