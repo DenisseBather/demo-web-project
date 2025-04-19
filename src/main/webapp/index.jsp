@@ -13,6 +13,6 @@
   </style>
 </head>
 <body>
-  <h1>Hola maestro, la app funciona 😊</h1>
+  <h1> Hola maestro, la app funciona <3 </h1>
 </body>
 </html>
