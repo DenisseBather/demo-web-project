@@ -8,11 +8,11 @@
       font-family: Arial, sans-serif;
       text-align: center;
       margin-top: 100px;
-      color: #222;
+      color: #111;
     }
   </style>
 </head>
 <body>
-  <h1> Hola maestro, la app funciona <3, OTRA VEZ! </h1>
+  <h1> Hola maestro, la app funciona <3, por tercera vez! </h1>
 </body>
 </html>
