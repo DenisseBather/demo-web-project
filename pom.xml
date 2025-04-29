@@ -30,7 +30,18 @@
     <!-- Aqui estaba la dependencia de SQL -->
   </dependencies>
 
-  <build>
+<build>
     <finalName>demo-web-project</finalName>
-  </build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.4.0</version>
+        <configuration>
+          <failOnMissingWebXml>false</failOnMissingWebXml> <!-- IGNORAR si falta -->
+        </configuration>
+      </plugin>
+    </plugins>
+</build>
+
 </project>
