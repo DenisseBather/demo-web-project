@@ -27,7 +27,8 @@
       <scope>provided</scope>
     </dependency>
 
-         <!-- Aqui estaba la dependencia de SQL -->
+    <!-- Aqui estaba la dependencia de SQL -->
+  </dependencies>
 
   <build>
     <finalName>demo-web-project</finalName>
