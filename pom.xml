@@ -4,13 +4,13 @@
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.denisse</groupId> 
+  <groupId>com.denisse</groupId>
   <artifactId>demo-web-project</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
-  <name>demo-web-project Maven Webapp</name> 
-  <url>http://maven.apache.org</url> 
+  <name>demo-web-project Maven Webapp</name>
+  <url>http://maven.apache.org</url>
 
   <dependencies>
     <dependency>
@@ -20,14 +20,14 @@
       <scope>test</scope>
     </dependency>
 
-<!-- aqui estaba la etiqueta que agregue-->
-
     <dependency>
-      <groupId>com.mysql</groupId>
-      <artifactId>mysql-connector-j</artifactId>
-      <version>8.4.0</version>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.20</version>
+      <scope>provided</scope>
     </dependency>
-  </dependencies>
+
+         <!-- Aqui estaba la dependencia de SQL -->
 
   <build>
     <finalName>demo-web-project</finalName>
